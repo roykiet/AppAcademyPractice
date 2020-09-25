@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @media screen and (max-height: 500px) {
+      .short {
+        background-color: yellow;
+      }
+      .long {
+        font-size: 150%;
+      }
+    }
+    @media screen and (min-height: 500px) {
+      .long {
+        background-color: orange;
+      }
+      .short {
+        font-size: 150%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="short">This is a short sreen</div>
+  <div class="long">This is a long sreen</div>
+</body>
+</html>

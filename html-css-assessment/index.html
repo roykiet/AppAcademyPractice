@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <form action="/pets" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="pet_name">
+
+    <label for="type">Type</label>
+    <select id="type" name="pet_type">
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="hamster">Hamster</option>
+      <option value="zebra">Zebra</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="bio">Biography</label>
+    <textarea id="bio" name="pet_bio"></textarea>
+
+    <label for="owner-email">Owner's Email</label>
+    <input type="email" id="owner-email" name="pet_owner_email">
+
+    <div></div>
+    <div>
+      <button type="submit" id="new-pet-submit-button">Create new pet</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+
+  <div class="card-container">
+    <div class = "card">
+      <img class = "card-banner" src="./images/desert.jpg" alt="desert">
+      <div class="card-content">
+        <div>
+          <img class="card-avatar" src="./images/person-avatar.jpg" alt="profile avatar">
+        </div>
+        <div class="card-title-container">
+          <h4 class="card-title">Title goes here</h4>
+          <h5 class="card-secondary-text">Secondary text</h5>
+        </div>
+        <div class="card-body-text">
+          <p>Greyhound divisively hello coldly wonderfully marginally far upon excluding.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
